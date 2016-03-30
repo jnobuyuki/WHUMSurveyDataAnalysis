@@ -1,19 +1,20 @@
-\name{data06}
-\alias{data06}
+\name{data13MRA}
+\alias{data13MRA}
 \docType{data}
 \title{
-	data06
+	data13MRA
 %%   ~~ data name/kind ... ~~
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
 }
-\usage{data("data06")}
+\usage{data("data13MRA")}
 \format{
-  A data frame with 270 observations on the following 2 variables.
+  A data frame with 100 observations on the following 3 variables.
   \describe{
-    \item{\samp{性別}}{a factor with levels \code{女子} \code{男子}}
-    \item{\samp{部活}}{a factor with levels \code{バスケ部} \code{バレー部}}
+    \item{\code{y}}{a numeric vector}
+    \item{\code{x1}}{a numeric vector}
+    \item{\code{x2}}{a numeric vector}
   }
 }
 \details{
@@ -26,7 +27,7 @@
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(data06)
-## maybe str(data06) ; plot(data06) ...
+data(data13MRA)
+## maybe str(data13MRA) ; plot(data13MRA) ...
 }
 \keyword{datasets}

@@ -1,19 +1,20 @@
-\name{data06}
-\alias{data06}
+\name{data11LineGraph}
+\alias{data11LineGraph}
 \docType{data}
 \title{
-	data06
+	data11LineGraph
 %%   ~~ data name/kind ... ~~
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
 }
-\usage{data("data06")}
+\usage{data("data11LineGraph")}
 \format{
-  A data frame with 270 observations on the following 2 variables.
+  A data frame with 20 observations on the following 3 variables.
   \describe{
-    \item{\samp{性別}}{a factor with levels \code{女子} \code{男子}}
-    \item{\samp{部活}}{a factor with levels \code{バスケ部} \code{バレー部}}
+    \item{\code{time}}{a numeric vector}
+    \item{\code{x1}}{a numeric vector}
+    \item{\code{x2}}{a numeric vector}
   }
 }
 \details{
@@ -26,7 +27,7 @@
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(data06)
-## maybe str(data06) ; plot(data06) ...
+data(data11LineGraph)
+## maybe str(data11LineGraph) ; plot(data11LineGraph) ...
 }
 \keyword{datasets}

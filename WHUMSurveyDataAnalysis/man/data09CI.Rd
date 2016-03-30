@@ -1,20 +1,17 @@
-\name{data06}
-\alias{data06}
+\name{data09CI}
+\alias{data09CI}
 \docType{data}
 \title{
-	data06
+	data09CI
 %%   ~~ data name/kind ... ~~
 }
 \description{
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
 }
-\usage{data("data06")}
+\usage{data("data09CI")}
 \format{
-  A data frame with 270 observations on the following 2 variables.
-  \describe{
-    \item{\samp{性別}}{a factor with levels \code{女子} \code{男子}}
-    \item{\samp{部活}}{a factor with levels \code{バスケ部} \code{バレー部}}
-  }
+  The format is:
+ num [1:10] 102.8 82.1 94 119.6 110.3 ...
 }
 \details{
 %%  ~~ If necessary, more details than the __description__ above ~~
@@ -26,7 +23,7 @@
 %%  ~~ possibly secondary sources and usages ~~
 }
 \examples{
-data(data06)
-## maybe str(data06) ; plot(data06) ...
+data(data09CI)
+## maybe str(data09CI) ; plot(data09CI) ...
 }
 \keyword{datasets}
